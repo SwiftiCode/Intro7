@@ -146,7 +146,6 @@
 				TargetAttributes = {
 					200A37EA1D389BBB00D35F02 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 3E3L6L75YM;
 					};
 					200A37FE1D389BBC00D35F02 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -331,6 +330,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Intro7/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.swifticode.Intro7;
@@ -342,6 +342,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Intro7/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.swifticode.Intro7;
@@ -392,6 +393,7 @@
 				200A380A1D389BBC00D35F02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		200A380B1D389BBC00D35F02 /* Build configuration list for PBXNativeTarget "Intro7Tests" */ = {
 			isa = XCConfigurationList;
@@ -400,6 +402,7 @@
 				200A380D1D389BBC00D35F02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
