@@ -29,13 +29,13 @@ class ViewController: UIViewController, UITextFieldDelegate {
 
 
     // MARK: UITextFieldDelegate
-    func textFieldDidEndEditing(textField: UITextField) {
+    func textFieldDidEndEditing(_ textField: UITextField) {
         
         myLabel.text = textField.text
         
     }
     
-    func textFieldShouldReturn(textField: UITextField) -> Bool {
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         
         textField.resignFirstResponder()
         
